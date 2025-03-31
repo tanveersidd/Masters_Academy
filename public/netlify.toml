@@ -1,4 +1,4 @@
 [[redirects]]
 from="/*"
 to="/index.html"
-status=200
+status=git remote add origin <your-repo-url>
