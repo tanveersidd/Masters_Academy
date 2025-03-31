@@ -5,6 +5,14 @@
 
 @layer components {
   .whatsapp-button {
-    @apply fixed bottom-6 right-6 bg-green-500 text-white rounded-full shadow-lg z-50 transition-transform hover:scale-110;
+    @apply fixed bottom-6 right-6 bg-green-500 text-white rounded-full shadow-lg z-50 transition-all hover:scale-110 hover:bg-green-600 flex items-center justify-center gap-2 px-4 py-3;
+  }
+  
+  .whatsapp-icon {
+    @apply flex-shrink-0;
+  }
+  
+  .whatsapp-text {
+    @apply font-medium text-sm md:text-base;
   }
 }
