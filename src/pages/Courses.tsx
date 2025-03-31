@@ -1,5 +1,5 @@
 
-import { Book, BookOpen, Award, Flask, Calculator, Users } from 'lucide-react';
+import { Book, BookOpen, Award, Beaker, Calculator, Users } from 'lucide-react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const Courses = () => {
@@ -50,7 +50,7 @@ const Courses = () => {
                     </li>
                     <li className="flex items-center">
                       <div className="h-8 w-8 rounded-full bg-academy-blue text-white flex items-center justify-center mr-3">
-                        <Flask size={18} />
+                        <Beaker size={18} />
                       </div>
                       <span>Science</span>
                     </li>
@@ -93,7 +93,7 @@ const Courses = () => {
                       </li>
                       <li className="flex items-center">
                         <div className="h-8 w-8 rounded-full bg-academy-blue text-white flex items-center justify-center mr-3">
-                          <Flask size={18} />
+                          <Beaker size={18} />
                         </div>
                         <span>Chemistry</span>
                       </li>
@@ -241,7 +241,7 @@ const Courses = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="content-card">
                   <div className="mb-4">
-                    <Flask className="h-12 w-12 text-academy-blue" />
+                    <Beaker className="h-12 w-12 text-academy-blue" />
                   </div>
                   <h3 className="text-xl font-bold mb-3 text-academy-blue">B. Pharmacy</h3>
                   <p className="mb-4">
@@ -261,7 +261,7 @@ const Courses = () => {
                 
                 <div className="content-card">
                   <div className="mb-4">
-                    <Flask className="h-12 w-12 text-academy-blue" />
+                    <Beaker className="h-12 w-12 text-academy-blue" />
                   </div>
                   <h3 className="text-xl font-bold mb-3 text-academy-blue">D. Pharmacy</h3>
                   <p className="mb-4">
