@@ -1,5 +1,5 @@
 
-import { WhatsApp } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 const WhatsAppButton = () => {
   const openWhatsApp = () => {
